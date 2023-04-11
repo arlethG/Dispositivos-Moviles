@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #A3ADB8;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: #4E6172;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background: #83929F;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 70vh !important;
+    background: url(img/android-ios.jpg) no-repeat center;
+    background-size: cover;
+}
+
+section{
+    background: url(#) no-repeat;
+    background-size:cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #0a0a0a;
+    padding: 8 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #558B2F;
+    color: #33691E;
+    text-decoration: none;
+    background: #AED581;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.sau {
+    padding: 30px;
+    background: #A4C639
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #828282;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem #AAAAAA(170, 131, 131, 0.808);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #005200;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #cfdddb;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #9D9D9D;
+}
+
+
+.price {
+    background: url(img/fondo1.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #467500;
+    padding-bottom: 0;
+}
+
+
+
+footer{
+    clear: both;
+    float: left;
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2rem 8%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    
+    
+}
+@media screen  and (max-width:400px){
+    .contenedor{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+}
